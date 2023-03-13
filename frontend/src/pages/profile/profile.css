@@ -1,0 +1,65 @@
+.profileWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 56%;
+  margin: auto;
+}
+
+.carsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.carListItem {
+  display: flex;
+  height: 90px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carListItemImg {
+  height: 70px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.carListHeading {
+  margin-bottom: 1rem;
+}
+
+.itemProperty {
+  flex: 1;
+}
+
+.actionButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.actionButton {
+  display: flex;
+  padding: 8px 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.editBtn {
+  /* background-color: rgb(104, 229, 104); */
+  background-color: #007bff;
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+}

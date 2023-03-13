@@ -1,0 +1,108 @@
+.topbarContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+  margin-top: 6px;
+}
+
+.topbarMisc {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 0.5px solid #333 ; */
+  margin: 5px 0;
+}
+
+
+.miscLeft {
+  display: flex;
+  margin-left: 300px;
+  gap: 30px;
+  /* flex: 1; */
+  flex-grow: 1;
+  justify-content: flex-start;
+  font-weight: 300;
+}
+
+.miscRight {
+  display: flex;
+  align-items: center;
+  margin-right: 300px;
+  flex-grow: 1;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.miscRightProfile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 3px;
+  font-weight: 400;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.searchIcon{
+    position: absolute;
+    right: 0px;
+}
+
+.wishlist{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.topbarHeading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    border-top: 0.5px solid rgba(183, 183, 183, 0.682);
+}
+
+.headingTitle{
+    font-size: larger;
+    font-weight: 500;
+    margin: 20px;
+    color: rgb(238, 80, 80);
+}
+
+.topbarNavigation{
+    display: flex;
+    justify-content: center;
+}
+
+.navigationList{
+    display: flex;
+    gap: 6rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navigationList a{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;   
+}
+
+.navigationList li{
+    list-style: none;
+}
+
+.navigationList li:visited{
+    text-decoration: none;
+}
+
+.navigationList a:focus{
+    outline: none;
+}

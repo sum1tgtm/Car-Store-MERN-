@@ -1,0 +1,39 @@
+.promoteWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promoteHeading {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.promoteContents {
+  display: flex;
+  width: 62%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.promoteContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.promoteContentIcon {
+  color: rgba(0, 60, 255, 0.83);
+  margin-bottom: 0.8rem;
+}
+
+.promoteContentTitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}

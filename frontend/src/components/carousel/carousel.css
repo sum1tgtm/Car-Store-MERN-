@@ -1,0 +1,128 @@
+/* .carouselWrapper {
+  position: relative;
+} */
+
+.carouselContainer {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(to bottom left, #ec5374, #a805cd);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.carouselNavigationLeft {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 10vw;
+  color: whitesmoke;
+}
+
+.carouselNavigationRight {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10vw;
+  color: whitesmoke;
+}
+
+.carouselForeground {
+  /* margin: 0 350px; */
+  max-width: 56%;
+  display: flex;
+  gap: 5rem;
+}
+
+.carouselTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: whitesmoke;
+}
+
+.carouselTitle {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.carouselDescription {
+  margin-top: 1rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.carouselMore {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+  /* text-decoration-skip-ink: 20px; */
+  cursor: pointer;
+}
+
+.carouselImage {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+}
+
+.otherCarouselContentWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.otherCarouselContent {
+  display: flex;
+  position: absolute;
+  top: -40px;
+}
+
+.otherContent {
+  height: 200px;
+  width: 320px;
+}
+
+.otherContent1 {
+  display: flex;
+  align-items: center;
+  background-color: #ec5374;
+  padding-left: 25px;
+}
+
+.other1Title {
+  color: whitesmoke;
+}
+
+.otherContent2 {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding-left: 15px;
+}
+
+.other2Title {
+  color: black;
+}
+
+.otherContent3 {
+  display: flex;
+  align-items: center;
+  background-color: darkgrey;
+  padding-left: 15px;
+}
+
+.other3Title {
+  color: black;
+}
+
+.otherImg {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.carouselWrapper{
+  margin-bottom: 14rem
+}

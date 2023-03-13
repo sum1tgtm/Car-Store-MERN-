@@ -1,0 +1,61 @@
+.loginContainer {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom left, #ec5374, #a805cd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.loginHeading {
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.loginInputs {
+  border: none;
+  background-color: rgb(168, 159, 159);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.loginInputs::placeholder {
+  color: whitesmoke;
+}
+
+.loginInputs:focus {
+  outline: none;
+}
+
+.loginSubmit {
+  width: 100%;
+  border: none;
+  background-color: #e24466e1;
+  padding: 1rem 0;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginSubmit:focus {
+  outline: none;
+}
+
+.loginToRegister {
+  font-weight: 200;
+  font-size: smaller;
+  margin-top: 6rem;
+}
